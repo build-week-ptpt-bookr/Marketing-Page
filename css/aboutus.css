@@ -95,3 +95,51 @@ body {
   margin-left: 15rem;
   margin-top: 2rem;
 }
+
+/* middle section */
+
+.members-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+    margin-left: 20px;
+    margin-top: 5rem;
+    padding-left: 10rem;
+  
+}
+
+.members-info .members {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.members-info .members img {
+  border-radius: 50%;
+
+}
+
+.members-info .members h2 {
+  padding: 5px;
+}
+
+/* last photo */
+.members-info .members-last img {
+  border-radius: 50%;
+
+}
+
+.members-info .members-last {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  margin-left: 19rem;
+}
+
+.members-info .members-last h2 {
+  padding: 5px;
+}
