@@ -112,8 +112,7 @@ body {
   display: flex;
   align-items: center;
   margin: 20px;
-  padding: 20px;
-  border: 2px solid black;
+  padding: 10px;
 }
 
 .members-info .members img {
@@ -136,8 +135,7 @@ body {
   align-items: center;
   margin: 20px;
   padding: 20px;
-  border: 2px solid black;
-  margin-left: 19rem;
+    margin-left: 19rem;
 }
 
 .members-info .members-last h2 {
