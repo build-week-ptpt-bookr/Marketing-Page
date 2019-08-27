@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   background-color: #fcbe32;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .navbar img {
   padding: 40px;
-    width: 200px;
+  width: 200px;
 }
 
 .main-nav {
@@ -44,45 +44,43 @@ body {
   margin-left: 20px;
 }
 
-
-
 /* navbar MediaQ's */
 
 @media screen and (min-width: 768px) {
   .navbar {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 0;
-      height: 70px;
-      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
   }
 
   .main-nav {
-      display: flex;
-      margin-right: 30px;
-      flex-direction: row;
-      justify-content: flex-end;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   .main-nav li {
-      margin: 0;
+    margin: 0;
   }
 
   .nav-links {
-      margin-left: 40px;
+    margin-left: 40px;
   }
 
   .logo {
-      margin-top: 0;
+    margin-top: 0;
   }
 
   .navbar-toggle {
-      display: none;
+    display: none;
   }
 
   .logo:hover,
   .nav-links:hover {
-      color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
   }
 }
 
@@ -102,10 +100,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-    margin-left: 20px;
-    margin-top: 5rem;
-    padding-left: 10rem;
-  
+  margin-left: 20px;
+  margin-top: 5rem;
+  padding-left: 10rem;
 }
 
 .members-info .members {
@@ -117,7 +114,6 @@ body {
 
 .members-info .members img {
   border-radius: 50%;
-
 }
 
 .members-info .members h2 {
@@ -127,7 +123,6 @@ body {
 /* last photo */
 .members-info .members-last img {
   border-radius: 50%;
-
 }
 
 .members-info .members-last {
@@ -135,7 +130,7 @@ body {
   align-items: center;
   margin: 20px;
   padding: 20px;
-    margin-left: 19rem;
+  margin-left: 19rem;
 }
 
 .members-info .members-last h2 {
