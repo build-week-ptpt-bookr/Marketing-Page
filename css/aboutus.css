@@ -134,6 +134,10 @@ h2 {
   font-size: 20px;
 }
 
+li a.active {
+  color: rgb(12, 240, 61);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -299,6 +303,3 @@ h2 {
     padding-left: 5%;
   }
 }
-
-
-
