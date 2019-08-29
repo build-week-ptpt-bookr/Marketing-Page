@@ -280,12 +280,25 @@ h2 {
   }
 }
 
+@media (min-width: 320px) and (max-width: 568px){
+  .members-info .members {
+    margin-left: 0%;
+    margin-top: 5rem;
+    padding-left: 0%;
+    padding-left: 5%;
+  }
+}
+
 /* last photo mobile  */
 
 @media (min-width: 320px) and (max-width: 568px){
   .members-info .members-last {
-    margin-left: 5%;
+    margin-left: 0%;
     margin-top: 5rem;
     padding-left: 0%;
+    padding-left: 5%;
   }
 }
+
+
+
