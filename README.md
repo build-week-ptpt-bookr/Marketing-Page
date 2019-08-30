@@ -1,5 +1,5 @@
-# marketing-page
-<<<<<<< HEAD
+## marketing-page
+
 
 Proposal
 
@@ -56,4 +56,3 @@ This is the “bread and butter” of the app, this is what makes your app yours
 		-  Review: String
 ​
 **Stretch Goal: A link to each book will take the user to another site (Amazon, Chegg, Half-Price Books, etc.) where they can purchase a book and compare prices.**
->>>>>>> 9762fba294c522926b8c379a541f3815fb8513f9
