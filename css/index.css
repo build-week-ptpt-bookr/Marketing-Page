@@ -98,6 +98,10 @@ html {
         max-width: 100%;
     }
 
+    #wrapper {
+        width: 100%;
+    }
+
 }
 
 #header .inner img {
@@ -154,6 +158,8 @@ html {
 
         #main-wrapper p {
             margin-bottom: 10%;
+            width: 100%;
+            max-width: 100%;
         }
 
     }
@@ -169,15 +175,18 @@ html {
     
         #header {
             width: 100%;
+            max-width: 100%;
         }
 
         .inner {
             width: 100%;
+            max-width: 100%;
         }
 
         #nav {
             font-size: 0.69em;
             margin-top: 1.5%;
+            max-width: 100%;
         }
 
     }
@@ -185,12 +194,15 @@ html {
     @media screen and (max-width: 736px) {
 
     #header {
-        width: 100%
+        width: 100%;
+        max-width: 100%;
     }
 
     #nav {
         font-size: .45em;
         margin-top: 6.5%;
+        width: 95%;
+        max-width: 100%;
     }
 
     }
@@ -403,7 +415,7 @@ header.major {
     @media screen and (max-width: 736px) {
 
         .bookr {
-            width: 125%;
+            width: 130%;
             font-size: 15px;
             margin-top: -40px;
             margin-left: -30%;
@@ -439,8 +451,10 @@ header.major {
          }
 
          .pic2 {
-            margin-left: -15px;
+             width: 100%;
+             height: auto;
          }
+
       }
 
 
@@ -495,3 +509,13 @@ header.major {
         text-align: center;
         background-color: #312450;
       }
+
+      @media screen and (max-width: 736px) {
+
+       #footer {
+           width: 100%;
+       }
+
+      }
+
+
