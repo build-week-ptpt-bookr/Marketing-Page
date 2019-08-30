@@ -7,6 +7,13 @@
 @import "compass/css3";
 @import "compass/css3/transform";
 @import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -100,7 +107,7 @@ html {
 #header {
     position: relative;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
+    background: #312450;
     padding: 0.75em;
     margin-bottom: 0;
 }
@@ -111,13 +118,14 @@ html {
     background-size: auto, cover;
     padding: 3em 0;
     height: 90%;
+    border-bottom: 2px solid black;
 }
 
     #header .inner {
-        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-        background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35));
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35));
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35));
+        background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35));
         position: relative;
         height: 5.5em;
         background-color: #3B3E45;
@@ -138,6 +146,14 @@ html {
 
     #main-wrapper {
         padding: 88px;
+    }
+
+    @media screen and (max-width: 736px) {
+
+        #main-wrapper p {
+            margin-bottom: 10%;
+        }
+
     }
 
 
@@ -215,6 +231,36 @@ html {
 #myCarousel {
     width: 65%;
     margin-left: 17%;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .carousel-caption {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .carousel-caption {
+        width: 100%;
+        font-size: 20px;
+        margin-left: -100px;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .carousel-caption {
+        width: 100%;
+        font-size: 12px;
+        margin-left: -40px;
+    }
+
+
 }
 
 .item img {
@@ -234,7 +280,7 @@ html {
 			text-transform: uppercase;
 			font-weight: 700;
 			letter-spacing: 0.065em;
-			font-size: 0.9em;
+			font-size: 1.2em;
 			color: #FFFFFF;
 			margin: 0;
 		}
@@ -263,19 +309,153 @@ header.major {
     header.major p {
         margin: 0 0 1.5em 0;
         position: relative;
-        top: -1em;
+
+        margin-top: -1.5em;
     }
 
     .major h2 {
         display: block;
-			text-transform: uppercase;
-			font-weight: 700;
-			letter-spacing: 0.065em;
-			font-size: 2.4em;
-			color: #FFFFFF;
-			margin: 0;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 2.4em;
+		color: #FFFFFF;
+		margin: 0;
     }
 
     #intro {
         margin-top: 2em;
+        width: 100%;
     }
+
+    .bookr {
+        position: relative;
+        font-family: 'Permanent Marker', cursive;
+        font-variant: small-caps;
+        font-size: 80px;
+        -webkit-transform: skew(-8deg,-8deg);
+        padding-left: 80px;
+        background-image: -webkit-linear-gradient(#5E42A6 0%,  #F9F9F7 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 30px;
+        -webkit-filter: drop-shadow(2px 2px 30px #D845FF);
+      }
+
+    @media screen and (max-width: 1280px) {
+
+        .bookr {
+            width: 100%;
+        }
+    
+    }
+    
+    @media screen and (max-width: 980px) {
+    
+        .bookr {
+            width: 125%;
+            font-size: 50px;
+            margin-left: -20px;;
+        }
+
+        .bookr:after {
+            left: 80px;
+            bottom : -18px;
+        }
+    
+    }
+    
+    @media screen and (max-width: 736px) {
+    
+        .bookr {
+            width: 100%;
+            font-size: 25px;
+            margin-top: -40px;
+            margin-left: -15%;
+        }
+
+        .bookr:after {
+            left: 60px;
+            bottom: -15px;
+        }
+    
+    }
+
+      .mid {
+        margin: auto;
+        width: 48%;
+      }
+
+      @media screen and (max-width: 980px) {
+          
+         .mid {
+             width: 100%;
+         }
+      }
+
+      @media screen and (max-width: 736px) {
+          
+         .mid {
+             width: 100%;
+         }
+
+         .pic1 {
+            margin-left: 40px;
+         }
+
+         .pic2 {
+             display: none;
+         }
+      }
+      
+      
+
+      #container2 {
+        display: inline-flex;
+        text-align: left;
+        padding: 2px;
+        margin: auto 0;
+      }
+
+      a img {
+        border-radius: 5px;
+      }
+
+      #container2 h3 {
+        text-transform: uppercase;
+		font-weight: 800;
+		letter-spacing: 0.04em;
+		color: #404248;
+		margin: 0 0 1em 0;
+        margin-top: 12px;
+      }
+
+      #container2 p {
+        text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		color: #404248;
+		margin: 0 0 1em 0;
+          margin-top: 3px;
+      }
+
+      .pic1 {
+          padding: 20px;
+      }
+
+      .pic2 {
+          padding: 20px;
+      }
+
+      #mid-wrapper {
+          width: 100%;
+      }
+
+      #footer {
+        font-family: 'Permanent Marker', cursive;
+        color: #404248;
+        font-size: 22px;
+        letter-spacing: 0.075em;
+        padding: 0.8em 1em 0.8em 1em;
+        text-align: center;
+        background-color: #312450;
+      }
