@@ -415,7 +415,8 @@ header.major {
     @media screen and (max-width: 736px) {
 
         .bookr {
-            width: 140%;
+            width: 120%;
+            max-width: 120%;
             height: auto;
             font-size: 15px;
             margin-top: -40px;
@@ -459,6 +460,7 @@ header.major {
       }
 
       .img1 img {
+        width: 100%;
         max-width: 100%;
         height: auto;
       }
