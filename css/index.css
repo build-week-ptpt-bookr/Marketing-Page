@@ -176,7 +176,7 @@ html {
         }
 
         #nav {
-            font-size: 0.79em;
+            font-size: 0.69em;
             margin-top: 1.5%;
         }
 
@@ -189,8 +189,8 @@ html {
     }
 
     #nav {
-        font-size: .52em;
-        margin-top: 3.5%;
+        font-size: .45em;
+        margin-top: 6.5%;
     }
 
     }
@@ -289,6 +289,11 @@ html {
         width: 100%;
         font-size: 12px;
         margin-left: -40px;
+    }
+
+    #myCarousel {
+        width: 75%;
+        margin-left: 12.5%;
     }
 
 
@@ -398,10 +403,10 @@ header.major {
     @media screen and (max-width: 736px) {
 
         .bookr {
-            width: 100%;
-            font-size: 25px;
+            width: 125%;
+            font-size: 15px;
             margin-top: -40px;
-            margin-left: -15%;
+            margin-left: -30%;
         }
 
         .bookr:after {
@@ -430,11 +435,11 @@ header.major {
          }
 
          .pic1 {
-            margin-left: 40px;
+            display: none;          
          }
 
          .pic2 {
-             display: none;
+            margin-left: -15px;
          }
       }
 
