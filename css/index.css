@@ -419,7 +419,7 @@ header.major {
             height: auto;
             font-size: 15px;
             margin-top: -40px;
-            margin-left: -30%;
+            margin-left: -35%;
         }
 
         .bookr:after {
@@ -451,8 +451,7 @@ header.major {
             display: none;          
          }
 
-         .books {
-            width: 100%;
+         .img1 img {
             max-width: 100%;
             height: auto;
          }
